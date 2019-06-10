@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM centos
 MAINTAINER jinghongbo
 ADD assets /assets
 RUN chmod -R 755 /assets

@@ -78,12 +78,12 @@ INVENTORY_LOCATION=/opt/oracle/oraInventory
 # all_langs   : All languages
 #
 # Specify value as the following to select any of the languages.
-# Example : SELECTED_LANGUAGES=zh_CN
+# Example : SELECTED_LANGUAGES=
 #
 # Specify value as the following to select all the languages.
 # Example : SELECTED_LANGUAGES=all_langs  
 #------------------------------------------------------------------------------
-SELECTED_LANGUAGES=
+SELECTED_LANGUAGES=zh_CN
 
 #------------------------------------------------------------------------------
 # Specify the complete path of the Oracle Home.

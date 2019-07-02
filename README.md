@@ -17,11 +17,11 @@ docker commit oracle11g oracle11g-installed
 数据库位于** /opt/oracle **文件夹中
 
 OS用户：
-* root / install
-* oracle / install
+* root/install
+* oracle/install
 
 数据库用户：
-* SYS / oracle
+* SYS/oracle
 
 您可以选择将dpdump文件夹映射到简单的上载转储：
 ```SH

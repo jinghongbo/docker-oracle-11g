@@ -3,7 +3,7 @@
 ``此镜像仅供开发使用``
 
 ＃用法
-从[Oracle站点]下载数据库安装文件（http://www.oracle.com/technetwork/database/in-memory/downloads/index.html）并将其解压缩到** install_folder **。
+从[Oracle站点]下载数据库安装文件(http://www.oracle.com/technetwork/database/in-memory/downloads/index.html)并将其解压缩到** install_folder **。
 运行容器，它将安装oracle并创建数据库：
 
 ```SH

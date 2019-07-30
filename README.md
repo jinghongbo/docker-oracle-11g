@@ -3,7 +3,7 @@
 ``此镜像仅供开发使用``
 
 ＃用法
-从 [Oracle站点](http://www.oracle.com/technetwork/database/in-memory/downloads/index.html) 下载数据库安装文件并将其解压缩到**install_folder **。
+从 [Oracle站点](http://www.oracle.com/technetwork/database/in-memory/downloads/index.html) 下载数据库安装文件并将其解压缩到 **install_folder** 。
 运行容器，它将安装oracle并创建数据库：
 
 ```SH
@@ -14,7 +14,7 @@ docker run --privileged --name oracle11g -p 1521:1521 -v <install_folder>:/insta
 docker commit oracle11g oracle11g-installed
 ```
 
-数据库位于** /opt/oracle **文件夹中
+数据库位于 **/opt/oracle** 文件夹中
 
 OS用户：
 * root/install

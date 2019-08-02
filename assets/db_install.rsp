@@ -78,7 +78,7 @@ INVENTORY_LOCATION=/opt/oracle/oraInventory
 # all_langs   : All languages
 #
 # Specify value as the following to select any of the languages.
-# Example : SELECTED_LANGUAGES=
+# Example : SELECTED_LANGUAGES=en,fr,ja
 #
 # Specify value as the following to select all the languages.
 # Example : SELECTED_LANGUAGES=all_langs  

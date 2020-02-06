@@ -7,7 +7,7 @@
 运行容器，它将安装oracle并创建数据库：
 
 ```SH
-docker run --privileged --name oracle11g -p 1521:1521 -v <install_folder>:/install jinghongbo/oracle-11g
+docker run --privileged --name oracle11g -p 1521:1521 -v <install_folder>:/install jaspeen/oracle-11g
 ```
 然后你可以提交这个容器来安装和配置oracle数据库：
 ```SH

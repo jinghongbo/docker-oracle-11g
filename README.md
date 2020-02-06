@@ -25,7 +25,7 @@ OS用户：
 
 您可以选择将dpdump文件夹映射到简单的上载转储：
 ```SH
-docker run --privileged --name oracle11g -p 1521:1521 -v <install_folder>:/install -v <local_dpdump>:/opt/oracle/dpdump jinghongbo/ oracle-11g
+docker run --privileged --name oracle11g -p 1521:1521 -v <install_folder>:/install -v <local_dpdump>:/opt/oracle/dpdump jaspeen/oracle-11g
 ```
 要执行impdp/expdp，只需使用docker exec命令：
 ```SH
